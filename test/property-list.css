@@ -1518,6 +1518,12 @@
     border-image-width: 10px;
     border-image-width: 10%;
 
+    border-inline: 2px;
+    border-inline-start: 2px solid hotpink;
+    border-inline-end: 2px dashed;
+    border-block-start: 2ch;
+    border-block: 2px;
+
     border-top-right-radius: inherit;
     border-top-right-radius: unset;
     border-top-right-radius:    4em;
@@ -3798,6 +3804,8 @@
     initial-letter-align: hanging;
     initial-letter-align: alphabetic;
 
+    inset: 20%;
+    inset: 20% 50%;
     inline-size: 50%;
 
     isolation: initial;
